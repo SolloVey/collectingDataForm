@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style/reset.css">
+	<link rel="stylesheet" href="./style/style.css">
+	<title>Form</title>
+</head>
+
+<body>
+	<div class="center">
+		<header class="header">
+			<div class="container">
+				<h1>Форма бронирования переговорной</h1>
+			</div>
+		</header>
+		<main>
+			<section class="wrapp">
+				<div class="container">
+					<form class="form">
+						<div class="box">
+							<div>
+								<p class="select-title">Выбор здания</p>
+								<select id="tower" class="select" name="tower">
+									<option value="select">Выберите башню</option>
+									<option value="tower-A">Башня А</option>
+									<option value="tower-B">Башня Б</option>
+								</select>
+							</div>
+							<div>
+								<p class="select-title">Выбор этажа</p>
+								<select id="floor" class="select" name="floor">
+									<option value="select">Выберите этаж</option>
+									<option value="floor-3">Этаж 3</option>
+									<option value="floor-4">Этаж 4</option>
+									<option value="floor-5">Этаж 5</option>
+									<option value="floor-6">Этаж 6</option>
+									<option value="floor-7">Этаж 7</option>
+									<option value="floor-8">Этаж 8</option>
+									<option value="floor-9">Этаж 9</option>
+									<option value="floor-10">Этаж 10</option>
+									<option value="floor-11">Этаж 11</option>
+									<option value="floor-12">Этаж 12</option>
+									<option value="floor-13">Этаж 13</option>
+									<option value="floor-14">Этаж 14</option>
+									<option value="floor-15">Этаж 15</option>
+									<option value="floor-16">Этаж 16</option>
+									<option value="floor-17">Этаж 17</option>
+									<option value="floor-18">Этаж 18</option>
+									<option value="floor-19">Этаж 19</option>
+									<option value="floor-20">Этаж 20</option>
+									<option value="floor-21">Этаж 21</option>
+									<option value="floor-22">Этаж 22</option>
+									<option value="floor-23">Этаж 23</option>
+									<option value="floor-24">Этаж 24</option>
+									<option value="floor-25">Этаж 25</option>
+									<option value="floor-26">Этаж 26</option>
+									<option value="floor-27">Этаж 27</option>
+								</select>
+							</div>
+							<div>
+								<p class="select-title">Выбор переговорки</p>
+								<select id="room" class="select" name="room">
+									<option value="select">Выберите комнату</option>
+									<option value="room-1">Переговорка 1</option>
+									<option value="room-2">Переговорка 2</option>
+									<option value="room-3">Переговорка 3</option>
+									<option value="room-4">Переговорка 4</option>
+									<option value="room-5">Переговорка 5</option>
+									<option value="room-6">Переговорка 6</option>
+									<option value="room-7">Переговорка 7</option>
+									<option value="room-8">Переговорка 8</option>
+									<option value="room-9">Переговорка 9</option>
+									<option value="room-10">Переговорка 10</option>
+								</select>
+							</div>
+						</div>
+						<div class="box-area">
+							<textarea class="area" name="text" placeholder="Коментарии" spellcheck="true" maxlength="160"></textarea>
+						</div>
+						<div class="box">
+							<button id="submit" class="btn" type="submit">Отправить</button>
+							<button id="reset" class="btn" type="reset">Очистить</button>
+						</div>
+					</form>
+				</div>
+			</section>
+		</main>
+	</div>
+	<script src="./script/main.js"></script>
+</body>
+
+</html>
