@@ -7,6 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./style/reset.css">
 	<link rel="stylesheet" href="./style/style.css">
+	<link rel="stylesheet" href="./air-datepicker/air-datepicker.css">
 	<title>Form</title>
 </head>
 
@@ -20,18 +21,18 @@
 		<main>
 			<section class="wrapp">
 				<div class="container">
-					<form class="form">
+					<form class="form" id="form">
 						<div class="box">
-							<div>
-								<p class="select-title">Выбор здания</p>
+							<div class="box-select select-name">
+								<label class="select-title">Выбор здания</label>
 								<select id="tower" class="select" name="tower">
 									<option value="select">Выберите башню</option>
 									<option value="tower-A">Башня А</option>
 									<option value="tower-B">Башня Б</option>
 								</select>
 							</div>
-							<div>
-								<p class="select-title">Выбор этажа</p>
+							<div class="box-select select-name">
+								<label class="select-title">Выбор этажа</label>
 								<select id="floor" class="select" name="floor">
 									<option value="select">Выберите этаж</option>
 									<option value="floor-3">Этаж 3</option>
@@ -61,8 +62,8 @@
 									<option value="floor-27">Этаж 27</option>
 								</select>
 							</div>
-							<div>
-								<p class="select-title">Выбор переговорки</p>
+							<div class="box-select select-name">
+								<label class="select-title">Выбор переговорки</label>
 								<select id="room" class="select" name="room">
 									<option value="select">Выберите комнату</option>
 									<option value="room-1">Переговорка 1</option>
@@ -76,6 +77,10 @@
 									<option value="room-9">Переговорка 9</option>
 									<option value="room-10">Переговорка 10</option>
 								</select>
+							</div>
+							<div class="box-select select-date">
+								<label class="select-title">Выбор даты</label>
+								<input class="select" id="select-date" type="text" placeholder="Выберите дату"></input>
 							</div>
 						</div>
 						<div class="box-area">
@@ -91,6 +96,7 @@
 		</main>
 	</div>
 	<script src="./script/main.js"></script>
+	<!-- <script src="./air-datepicker/air-datepicker.js" type="module"></script> -->
 </body>
 
 </html>

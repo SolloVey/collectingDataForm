@@ -47,7 +47,7 @@ h1 {
 .box {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: center;
 }
 
 .box:first-child {
@@ -61,6 +61,7 @@ h1 {
 
 .box:last-child {
 	column-gap: 30px;
+	margin-top: 20px;
 
 	@media (max-width:340px) {
 		column-gap: 20px;
@@ -78,6 +79,11 @@ h1 {
 	@media (max-width:340px) {
 		width: 250px;
 	}
+}
+
+.box-select {
+	display: flex;
+	flex-direction: column;
 }
 
 .select-title {
