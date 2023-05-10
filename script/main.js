@@ -1,3 +1,7 @@
+// import AirDatepicker from 'air-datepicker';
+// import 'air-datepicker/air-datepicker.css';
+// new AirDatepicker('#select-date');
+
 const form = document.querySelector('#form');
 const submitBtn = document.querySelector('#submit');
 const resetBtn = document.querySelector('#reset');
