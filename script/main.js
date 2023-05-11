@@ -1,6 +1,4 @@
-// import AirDatepicker from 'air-datepicker';
-// import 'air-datepicker/air-datepicker.css';
-// new AirDatepicker('#select-date');
+new AirDatepicker('#select-date');
 
 const form = document.querySelector('#form');
 const submitBtn = document.querySelector('#submit');
@@ -23,6 +21,7 @@ function getFormInput() {
 function showDataToConsole(e) {
 	e.preventDefault();
 
+	let requestJSON;
 	let applicationJSON;
 	let formData = getFormInput();
 	let request = new Request(
