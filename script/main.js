@@ -7,7 +7,6 @@ document.addEventListener('DOMContentLoaded', function () {
 	});
 
 	const form = document.querySelector('#form');
-	const submitBtn = document.querySelector('#submit');
 	const resetBtn = document.querySelector('#reset');
 	let application = [];
 
